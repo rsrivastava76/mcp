@@ -1,0 +1,17 @@
+uvicorn
+fastapi
+fastapi-mcp
+
+pip install fastapi fastapi-mcp uvicorn pandas mcp_proxy python-dotenv
+
+# HR Management MCP Server Requirements
+# Core MCP SDK
+mcp>=1.0.0
+# MySQL database connector
+mysql-connector-python>=8.0.33
+# Environment variable management (optional but recommended)
+python-dotenv>=1.0.0
+# Additional utilities
+asyncio-mqtt>=0.11.0
+
+pip install mcp-server-git
