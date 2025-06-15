@@ -15,3 +15,7 @@ python-dotenv>=1.0.0
 asyncio-mqtt>=0.11.0
 
 pip install mcp-server-git
+
+httpx>=0.25.0
+mcp>=1.0.0
+anyio>=4.0.0
